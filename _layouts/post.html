@@ -1,0 +1,26 @@
+---
+layout: base
+---
+
+{% include navigation.html %}
+
+<main>
+    <div class="container mt-4">
+        <div class="mb-3 text-muted">
+            <a href="{{ '/news' | relative_url }}">News</a>
+            &gt;
+            {{ page.title }}
+        </div>
+        <div class="aofa-emph text-secondary">
+            <b>{{ page.date | date: "%B %d, %Y" }}</b>
+            &bullet;
+            Author: <i>{{ page.author }}</i>
+            &bullet;
+	    Tags: {% for tag in page.tags %}<span class="badge text-bg-secondary me-1">{{ tag }}</span>{% endfor %}
+            <h2>{{ page.title }}</h2>
+        </div>
+        {{ content }}
+    </div>
+</main>
+
+{% include footer.html %}
