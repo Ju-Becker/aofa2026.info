@@ -1,0 +1,7 @@
+# Collection of alerts displayed on the main page.
+#
+# An alert can be specified as a list item as follows:
+#
+# - type: warning
+#   content: >-  # read until next key
+#     <strong>Attention!</strong> Hello world.

@@ -1,0 +1,19 @@
+# Structured data controlling the menu entries in the navbar.
+
+- title: Home
+  url: /
+
+- title: Call for Papers
+  url: /calls/
+
+- title: Registration
+  url: /registration/
+
+- title: Committees
+  url: /committees/
+
+- title: Local Info
+  url: /local/
+
+- title: Program
+  url: /program/

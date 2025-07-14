@@ -1,0 +1,15 @@
+# Structured data set representing members of committees related
+# to the conference.
+
+organising:  # members of the organizing committee
+  - name: Some Person
+    affiliation: Some Institution
+  - name: Another Person
+    affiliation: Another Institution
+
+programme:  # members of the programme committee
+  - name: Yet Another Person
+    affiliation: Yet Another Affiliation
+    chair: True
+  - name: Some Person
+    affiliation: Some Institution
