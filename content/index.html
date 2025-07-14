@@ -1,0 +1,107 @@
+---
+layout: landing
+permalink: /
+---
+
+<style>
+  #img-overlay {
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+  }
+
+  #img-overlay img {
+    max-width: 70vw;
+    max-height: 70vh;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+
+  #img-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+  }
+</style>
+
+<div class="row">
+  <!-- linke Spalte -->
+  <div class="col-12 col-lg-4 mb-4 border-end pe-lg-4">
+    <div class="img-popup-container">
+      <img id="popup-img" src="{{ '/assets/ALGO2.jpg' | relative_url }}" width="100%" alt="AofA Conference Banner" style="cursor: pointer;"/>
+    </div>
+
+    <h4 class="mt-4">News</h4>
+    <ul>
+      <li>More updates coming soon!</li>
+    </ul>
+
+    <h4 class="mt-4">Important Dates</h4>
+    <ul>
+      <li><i>Submission deadline:</i> xx.yy.2026</li>
+      <li><i>Acceptance notice:</i> xx.yy.2026</li>
+      <li><i>Registration deadline (early bird):</i> xx.yy.2026</li>
+      <li><i>Registration deadline:</i> xx.yy.2026</li>
+    </ul>
+  </div>
+
+  <!-- rechte Spalte -->
+  <div class="col-12 col-lg-8 ps-lg-4">
+    <h2>{{ site.longtitle }}</h2>
+    <p>
+      The <i>37<sup>th</sup> International Conference on Probabilistic, Combinatorial and Asymptotic Methods
+        for the Analysis of Algorithms (AofA2026)</i> will take place from
+      June 22–26, 2026. This event is hosted at LMU-Munich,
+      and is part of the series of annual meetings and conferences of
+      <a href="https://www.math.aau.at/AofA">the AofA community</a>.
+    </p>
+
+    <!--
+    <h4>Registration</h4>
+    <p>
+      This paragraph can be used to provide some instructions for registration for the
+      conference, or a note that registration might also not be open yet.
+    </p>
+    <div class="text-center mb-4">
+      <a href="#" class="btn btn-outline-primary">Registration</a>
+    </div>
+    -->
+
+    <h4>Flajolet Lecture</h4>
+    <p>Details on the 2026 Flajolet Lecture will be announced soon.</p>
+
+    <h4>Plenary Speakers</h4>
+    <ul>
+      <li>To be announced</li>
+    </ul>
+  </div>
+</div>
+
+<div id="img-overlay">
+  <span id="img-close">&times;</span>
+  <img id="img-enlarged" src="{{ '/assets/ALGO2.jpg' | relative_url }}" alt="AofA Conference Banner"/>
+</div>
+
+<script>
+  const popupImg = document.getElementById("popup-img");
+  const overlay = document.getElementById("img-overlay");
+  const closeBtn = document.getElementById("img-close");
+
+  popupImg.addEventListener("click", () => {
+    overlay.style.display = "flex";
+  });
+
+  overlay.addEventListener("click", (e) => {
+    if (e.target === overlay || e.target === closeBtn) {
+      overlay.style.display = "none";
+    }
+  });
+</script>

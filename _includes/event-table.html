@@ -1,0 +1,30 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Location</th>
+            <th>Year</th>
+            <th>Speakers</th>
+            <th>Special</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for event in site.data.events %}
+        {% if event.series.name == include.series_name %}
+        <tr>
+            <td>{{ event.series.number }}</td>
+            <td>
+                {% if event.website %}
+                <a href="{{event.website}}">{{ event.location }}</a>
+                {% else %}
+                {{ event.location }}
+                {% endif %}
+            </td>
+            <td>{{ event.year }}</td>
+            <td>{{ event.speakers | join: ", " }}</td>
+            <td>{{ event.special }}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+    </tbody>
+</table>

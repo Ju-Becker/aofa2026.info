@@ -1,0 +1,22 @@
+<header>
+      <nav id="nav-title" class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand brand-title" href="{{ "/" | relative_url }}">
+          <img src="{{ '/assets/ALGO2.jpg' | relative_url }}" height=30 class="mx-2">
+          {{site.title}}
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+      <nav id="nav-main" class="navbar navbar-expand-md navbar-dark">
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto">
+              {% for item in site.data.navigation %}
+              <li class="nav-item {% if (page.url == item.url) or (page.url contains item.url and item.url != "/") %}active{% endif %}">
+                  <a class="nav-link" href="{{ item.url | relative_url }}" alt="{{ item.title }}">{{ item.title }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+      </nav>
+</header>
