@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 'AofA2026 @ LMU Munich, Germany'
-longtitle: '37th International Conference / Meeting on Probabilistic, Combinatorial and Asymptotic Methods for the Analysis of Algorithmis'
+longtitle: '37th International Conference / Meeting on Probabilistic, Combinatorial and Asymptotic Methods for the Analysis of Algorithms'
 shorttitle: 'AofA2026'
 aofa_location: LMU Munich, Germany
 email: organizer@host_institution.org
