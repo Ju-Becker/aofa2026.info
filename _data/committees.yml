@@ -5,8 +5,11 @@ organising:  # members of the organizing committee
   - name: Konstantinos Panagiotou
     web: "https://www.mathematik.uni-muenchen.de/~kpanagio/"
   - name: Tamas Makai
+    web: "https://www.mathematik.uni-muenchen.de/~makai/"
   - name: Julian Becker
+    web: "https://www.mathematik.uni-muenchen.de/~becker/"
   - name: Julius Hallmann
+    web: "https://www.mathematik.uni-muenchen.de/~hallmann/"
 
 programme:  # members of the programme committee
   - name: Konstantinos Panagiotou

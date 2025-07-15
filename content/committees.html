@@ -3,7 +3,7 @@ layout: page
 title: Committees
 permalink: /committees/
 ---
-<h3>Organising Committee</h3>
+<h3>Organising Committee (from the University of Munich)</h3>
 <ul>
   {% for person in site.data.committees.organising %}
   <li>{% if person.web %} <a href = {{ person.web }}>{% endif %}{{ person.name }} {% if person.web %} </a>{% endif %}{% if person.affiliation %}, {{ person.affiliation }}{% endif %}</li>
@@ -19,5 +19,5 @@ permalink: /committees/
 
 <h3>Steering Committee</h3>
 <p>
-See <a href="https://www.math.aau.at/AofA">the AofA community's website</a> for more information and a list of current members of the steering committee.
+See <a href="https://www.math.aau.at/AofA">the AofA community's website</a> for more information and a list of current members.
 </p>
