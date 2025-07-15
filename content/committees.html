@@ -6,7 +6,7 @@ permalink: /committees/
 <h3>Organising Committee</h3>
 <ul>
   {% for person in site.data.committees.organising %}
-  <li>{% if person.web %} <a href = person.web >{% endif %}{{ person.name }} {% if person.web %} </a>{% endif %}{% if person.affiliation %}, {{ person.affiliation }}{% endif %}</li>
+  <li>{% if person.web %} <a href = {{ person.web }}>{% endif %}{{ person.name }} {% if person.web %} </a>{% endif %}{% if person.affiliation %}, {{ person.affiliation }}{% endif %}</li>
   {% endfor %}
 </ul>
 
