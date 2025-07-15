@@ -2,10 +2,10 @@
 # to the conference.
 
 organising:  # members of the organizing committee
-  - name: Some Person
-    affiliation: Some Institution
-  - name: Another Person
-    affiliation: Another Institution
+  - name: Konstantinos Panagiotou
+    affiliation: Institute for Mathematics, University of Munich
+  - name: Julian Becker
+    affiliation: Institute for Mathematics, University of Munich
 
 programme:  # members of the programme committee
   - name: Yet Another Person
