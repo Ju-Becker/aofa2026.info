@@ -4,3 +4,10 @@ _site/
 Readme.md
 Gemfile.lock
 yarn.lock
+.jekyll-metadata
+Dockerfile
+Gemfile
+Makefile
+docker-compose.yml
+docker-run
+package.json
