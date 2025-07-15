@@ -3,13 +3,14 @@
 
 organising:  # members of the organizing committee
   - name: Konstantinos Panagiotou
-    affiliation: Institute for Mathematics, University of Munich
+    web: "https://www.mathematik.uni-muenchen.de/~kpanagio/"
+  - name: Tamas Makai
   - name: Julian Becker
-    affiliation: Institute for Mathematics, University of Munich
+  - name: Julius Hallmann
 
 programme:  # members of the programme committee
-  - name: Yet Another Person
-    affiliation: Yet Another Affiliation
+  - name: Konstantinos Panagiotou
+    affiliation: Institute for Mathematics, University of Munich
     chair: True
   - name: Some Person
     affiliation: Some Institution
