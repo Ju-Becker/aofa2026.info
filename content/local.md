@@ -26,7 +26,7 @@ permalink: /local/
 
 <h3>Accomodation</h3>
 <p>
-    A Booking.com list of available accomodation in Munich is <a href="https://www.booking.com/searchresults.html?ss=Munich%2C+Bavaria%2C+Germany&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaDuIAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4AoTH1MMGwAIB0gIkNzc0ZGY2NjMtOWE1MC00YTU3LWJlOGMtNDliMWI0YWE0YjJj2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=-1829149&dest_type=city&place_id=city%2F-1829149&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=4cfa6d828a23005e&ac_meta=GhA0Y2ZhNmQ4MjhhMjMwMDVlIAAoATICZW46Bk11bmljaEAASgBQAA%3D%3D&checkin=2026-06-22&checkout=2026-06-26&group_adults=1&no_rooms=1&group_children=0">here</a>.
+    A Booking.com list of available accomodation in Munich is <a href="https://www.booking.com/searchresults.html?ss=Munich%2C+Bavaria%2C+Germany&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaDuIAQGYATG4ARnIAQ_YAQHoAQH4AQKIAgGoAgO4AoTH1MMGwAIB0gIkNzc0ZGY2NjMtOWE1MC00YTU3LWJlOGMtNDliMWI0YWE0YjJj2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=-1829149&dest_type=city&place_id=city%2F-1829149&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=4cfa6d828a23005e&ac_meta=GhA0Y2ZhNmQ4MjhhMjMwMDVlIAAoATICZW46Bk11bmljaEAASgBQAA%3D%3D&checkin=2026-06-22&checkout=2026-06-26&group_adults=1&no_rooms=1&group_children=0">here</a>..
 </p>
 
 
