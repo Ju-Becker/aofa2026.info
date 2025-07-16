@@ -19,7 +19,7 @@ permalink: /local/
 <p>
     From <strong>central station</strong>. Take any S-Bahn train in the direction of <strong>Ostbahnhof</strong>. Get off at the next stop, <strong>Karlsplatz/Stachus</strong>, and take the staircase to the street level. Here you can either take the number 27 tram in the direction of <strong>Petuelring</strong> or the 28 in the direction of <strong>Scheidplatz</strong>. Get off at the third stop <strong> Pinakotheken</strong>. Turn right into Theresienstraße where you will find the Department of Mathematics at your right hand side.
 </p>
-<strong>By Plain</strong>
+<strong>By Plane</strong>
 <p>
     Take the S-Bahn train S1 or S8. Get off at the stop <strong>Karlsplatz/Stachus</strong>, and take the staircase to the street level. Here you can either take the number 27 tram in the direction of <strong>Petuelring</strong> or the 28 in the direction of <strong>Scheidplatz</strong>. Get off at the third stop <strong>Pinakotheken</strong>. Turn right into Theresienstraße where you will find the Department of Mathematics at your right hand side.
 </p>
