@@ -54,7 +54,7 @@ permalink: /local/
 
 <h3 id="food_options">Food Options</h3>
 <p>
-Munich offers amazing flavors, from Bavarian classics to global cuisine. Check out our picks below—and don’t forget to explore and find your own favorites!
+Munich offers amazing flavors, from Bavarian classics to global cuisine. Feel free to check out our picks below—and don’t forget to explore and find your own favorites.
 </p>
 <strong>Bavarian</strong>
 <ul>
