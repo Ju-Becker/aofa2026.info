@@ -2614,7 +2614,7 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + calc(var(--bs-border-
 
 @font-face { font-family: 'Futura PT Demi'; font-style: normal; font-weight: normal; src: local("Futura PT Demi"), url("/assets/fonts/FuturaCyrillicDemi.woff") format("woff"); }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, .navbar-brand, #nav-main { font-family: 'Futura PT Demi', serif; }
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, .navbar-brand, #nav-main { font-family: 'Futura PT Demi', 'Futura', 'Avenir Next', 'Segoe UI', 'Roboto', 'Arial', 'Helvetica Neue', sans-serif; }
 
 html { height: 100%; box-sizing: border-box; }
 
