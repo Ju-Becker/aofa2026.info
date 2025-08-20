@@ -15,5 +15,7 @@ programme:  # members of the programme committee
   - name: Konstantinos Panagiotou
     affiliation: Institute for Mathematics, University of Munich
     chair: True
-  - name: Some Person
-    affiliation: Some Institution
+  - name: Juanjo Rue
+    affiliation: UPC
+  - name: ... more to come ...
+    affiliation: 
