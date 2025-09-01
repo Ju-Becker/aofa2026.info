@@ -11,12 +11,12 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="http://0.0.0.0:4000/404.html">
+  <link rel="canonical" href="http://localhost:4000/404.html">
   <link rel="shortcut icon" href="/assets/favicon.png">
 </head>
 
   <body>
-    <header>
+    <!-- <header>
       <nav id="nav-title" class="navbar navbar-expand-md navbar-dark">
         <a class="navbar-brand brand-title" href="/">
           <img src="/assets/ALGO2.jpg" height=30 class="mx-2">
@@ -57,7 +57,88 @@
             </ul>
           </div>
       </nav>
+</header> -->
+
+<header>
+  <!-- obere Leiste mit Brand + Toggler (Layout gleich wie bei dir) -->
+  <nav id="nav-title" class="navbar navbar-expand-md navbar-dark">
+    <a class="navbar-brand brand-title" href="/">
+      <img src="/assets/ALGO2.jpg" height="30" class="mx-2" alt="Logo">
+      AofA2026 @ LMU Munich, Germany
+    </a>
+
+    <!-- Toggler: data-bs-target zeigt auf die ID weiter unten -->
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapseMain"
+            aria-controls="navbarCollapseMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+  <!-- zweite Leiste (deine Navigation) - bleibt optisch gleich -->
+  <nav id="nav-main" class="navbar navbar-expand-md navbar-dark">
+    <div class="collapse navbar-collapse" id="navbarCollapseMain">
+      <ul class="navbar-nav me-auto">
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/" alt="Home">Home</a>
+        </li>
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/calls/" alt="Call for Papers">Call for Papers</a>
+        </li>
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/registration/" alt="Registration">Registration</a>
+        </li>
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/committees/" alt="Committees">Committees</a>
+        </li>
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/local/" alt="Local Info">Local Info</a>
+        </li>
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/program/" alt="Program">Program</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
 </header>
+
+<!-- Fallback-Script: wird nur aktiv, falls Bootstrap JS nicht geladen ist -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var toggler = document.querySelector('.navbar-toggler');
+  var collapseEl = document.getElementById('navbarCollapseMain');
+
+  // Wenn Bootstrap 5 vorhanden ist, nichts weiter tun (Bootstrap handhabt Collapse).
+  if (typeof bootstrap !== 'undefined' && bootstrap.Collapse) {
+    return;
+  }
+
+  // Fallback: Toggle-Klasse "show" manuell, plus aria-expanded anpassen.
+  if (toggler && collapseEl) {
+    toggler.addEventListener('click', function (e) {
+      e.preventDefault();
+      var isShown = collapseEl.classList.contains('show');
+      if (isShown) {
+        collapseEl.classList.remove('show');
+        toggler.setAttribute('aria-expanded', 'false');
+      } else {
+        collapseEl.classList.add('show');
+        toggler.setAttribute('aria-expanded', 'true');
+      }
+    });
+  }
+});
+</script>
 
 
 <main>
@@ -104,7 +185,7 @@
 </footer>
 
 
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
