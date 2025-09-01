@@ -1,4 +1,4 @@
-<footer class="footer d-flex mt-2">
+<!-- <footer class="footer d-flex mt-2">
     <div class="legal-container my-3 ms-3">
       <a href="{{ '/legal' | relative_url }}">Legal information</a>
     </div>
@@ -12,4 +12,42 @@
             <img src="{{ "/assets/lmu.png" | relative_url }}" height=50 style="filter: invert(1);">
         </a>
     </div>
+</footer> -->
+
+<footer class="footer d-flex flex-nowrap align-items-center mt-2">
+  <style>
+    .footer {
+      padding: 0.5rem 1rem;          /* kompaktere Abstände */
+    }
+    .footer a {
+      text-decoration: none;
+    }
+    .footer-logo {
+      max-height: 40px;              /* passt sich an */
+      height: auto;
+      width: auto;
+    }
+    @media (max-width: 576px) {
+      .footer {
+        padding: 0.25rem 0.5rem;     /* noch kleinere Abstände auf Handy */
+      }
+      .footer-logo {
+        max-height: 28px;            /* Logos kleiner auf kleinen Screens */
+      }
+    }
+  </style>
+
+  <div class="legal-container me-auto my-2">
+    <a href="{{ '/legal' | relative_url }}">Legal information</a>
+  </div>
+  <div class="my-2 me-3">
+    <a href="https://www.en.math.lmu.de/index.html">
+      <img src="{{ "/assets/lmu-math.png" | relative_url }}" class="footer-logo" style="filter: invert(1);">
+    </a>
+  </div>
+  <div class="my-2 me-3">
+    <a href="https://www.lmu.de/en/">
+      <img src="{{ "/assets/lmu.png" | relative_url }}" class="footer-logo" style="filter: invert(1);">
+    </a>
+  </div>
 </footer>
