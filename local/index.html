@@ -261,20 +261,42 @@ Talks will be held in the [*Department of Mathematics*](https://maps.app.goo.gl/
   <style>
     .footer {
       padding: 0.5rem 1rem;       /* kompakte Höhe */
+      flex-wrap: wrap;            /* damit Inhalte umbrechen */
     }
     .footer-logo {
-      max-height: 40px;           /* Standardgröße */
+      max-height: 40px;           
       height: auto;
       width: auto;
     }
     .footer a {
       display: flex;
-      align-items: center;        /* vertikal mittig */
+      align-items: center;        
+      text-decoration: none;
+      color: inherit;
     }
-    /* Auf sehr kleinen Screens noch kleiner */
+    .legal-container {
+      font-size: 1rem;
+      transition: font-size 0.2s ease;
+    }
+
+    /* Kleine Screens */
     @media (max-width: 576px) {
       .footer-logo {
         max-height: 30px;
+      }
+      .legal-container {
+        font-size: 0.9rem;
+      }
+    }
+
+    /* Sehr kleine Screens */
+    @media (max-width: 400px) {
+      .footer-logo {
+        display: none;
+      }
+      .legal-container {
+        font-size: 0.8rem;
+        margin-right: 0;  /* keine Lücke mehr */
       }
     }
   </style>
@@ -295,6 +317,8 @@ Talks will be held in the [*Department of Mathematics*](https://maps.app.goo.gl/
     </a>
   </div>
 </footer>
+
+
 
 
 
