@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', function () {
     </div>
 </main>
 
-<footer class="footer d-flex mt-2">
+<!-- <footer class="footer d-flex mt-2">
     <div class="legal-container my-3 ms-3">
       <a href="/legal">Legal information</a>
     </div>
@@ -182,7 +182,47 @@ document.addEventListener('DOMContentLoaded', function () {
             <img src="/assets/lmu.png" height=50 style="filter: invert(1);">
         </a>
     </div>
+</footer> -->
+
+<footer class="footer d-flex mt-2 align-items-center">
+  <style>
+    .footer {
+      padding: 0.5rem 1rem;       /* kompakte Höhe */
+    }
+    .footer-logo {
+      max-height: 40px;           /* Standardgröße */
+      height: auto;
+      width: auto;
+    }
+    .footer a {
+      display: flex;
+      align-items: center;        /* vertikal mittig */
+    }
+    /* Auf sehr kleinen Screens noch kleiner */
+    @media (max-width: 576px) {
+      .footer-logo {
+        max-height: 30px;
+      }
+    }
+  </style>
+
+  <div class="legal-container me-auto">
+    <a href="/legal">Legal information</a>
+  </div>
+
+  <div class="me-3">
+    <a href="https://www.en.math.lmu.de/index.html">
+      <img src="/assets/lmu-math.png" class="footer-logo" style="filter: invert(1);">
+    </a>
+  </div>
+
+  <div>
+    <a href="https://www.lmu.de/en/">
+      <img src="/assets/lmu.png" class="footer-logo" style="filter: invert(1);">
+    </a>
+  </div>
 </footer>
+
 
 
     <!-- <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
