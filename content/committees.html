@@ -3,7 +3,7 @@ layout: page
 title: Committees
 permalink: /committees/
 ---
-<h3>Organising Committee (from the University of Munich)</h3>
+<h3>Organising Committee (from LMU Munich)</h3>
 <ul>
   {% for person in site.data.committees.organising %}
   <li>{% if person.web %} <a href = {{ person.web }}>{% endif %}{{ person.name }} {% if person.web %} </a>{% endif %}{% if person.affiliation %}, {{ person.affiliation }}{% endif %}</li>
