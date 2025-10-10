@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>AofA2026 | AofA2026 @ LMU Munich, Germany</title>
+  <meta name="description" content="Online presence of AofA2026, the 37nd International Conference / Meeting on Probabilistic, Combinatorial and Asymptotic Method for the Analysis of Algorithms...">
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="shortcut icon" href="/assets/favicon.png">
+</head>
+
+  <body>
+    <!-- <header>
+      <nav id="nav-title" class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand brand-title" href="/">
+          <img src="/assets/ALGO2.jpg" height=30 class="mx-2">
+          AofA2026 @ LMU Munich, Germany
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+      <nav id="nav-main" class="navbar navbar-expand-md navbar-dark">
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto">
+              
+              <li class="nav-item active">
+                  <a class="nav-link" href="/" alt="Home">Home</a>
+              </li>
+              
+              <li class="nav-item ">
+                  <a class="nav-link" href="/calls/" alt="Call for Papers">Call for Papers</a>
+              </li>
+              
+              <li class="nav-item ">
+                  <a class="nav-link" href="/registration/" alt="Registration">Registration</a>
+              </li>
+              
+              <li class="nav-item ">
+                  <a class="nav-link" href="/committees/" alt="Committees">Committees</a>
+              </li>
+              
+              <li class="nav-item ">
+                  <a class="nav-link" href="/local/" alt="Local Info">Local Info</a>
+              </li>
+              
+              <li class="nav-item ">
+                  <a class="nav-link" href="/program/" alt="Program">Program</a>
+              </li>
+              
+            </ul>
+          </div>
+      </nav>
+</header> -->
+
+<header>
+  <!-- obere Leiste mit Brand + Toggler (Layout gleich wie bei dir) -->
+  <nav id="nav-title" class="navbar navbar-expand-md navbar-dark">
+    <a class="navbar-brand brand-title" href="/">
+      <img src="/assets/ALGO2.jpg" height="30" class="mx-2" alt="Logo">
+      AofA2026 @ LMU Munich, Germany
+    </a>
+
+    <!-- Toggler: data-bs-target zeigt auf die ID weiter unten -->
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapseMain"
+            aria-controls="navbarCollapseMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+  <!-- zweite Leiste (deine Navigation) - bleibt optisch gleich -->
+  <nav id="nav-main" class="navbar navbar-expand-md navbar-dark">
+    <div class="collapse navbar-collapse" id="navbarCollapseMain">
+      <ul class="navbar-nav me-auto">
+        
+        <li class="nav-item active">
+          <a class="nav-link" href="/" alt="Home">Home</a>
+        </li>
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/calls/" alt="Call for Papers">Call for Papers</a>
+        </li>
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/registration/" alt="Registration">Registration</a>
+        </li>
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/committees/" alt="Committees">Committees</a>
+        </li>
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/local/" alt="Local Info">Local Info</a>
+        </li>
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/program/" alt="Program">Program</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Fallback-Script: wird nur aktiv, falls Bootstrap JS nicht geladen ist -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var toggler = document.querySelector('.navbar-toggler');
+  var collapseEl = document.getElementById('navbarCollapseMain');
+
+  // Wenn Bootstrap 5 vorhanden ist, nichts weiter tun (Bootstrap handhabt Collapse).
+  if (typeof bootstrap !== 'undefined' && bootstrap.Collapse) {
+    return;
+  }
+
+  // Fallback: Toggle-Klasse "show" manuell, plus aria-expanded anpassen.
+  if (toggler && collapseEl) {
+    toggler.addEventListener('click', function (e) {
+      e.preventDefault();
+      var isShown = collapseEl.classList.contains('show');
+      if (isShown) {
+        collapseEl.classList.remove('show');
+        toggler.setAttribute('aria-expanded', 'false');
+      } else {
+        collapseEl.classList.add('show');
+        toggler.setAttribute('aria-expanded', 'true');
+      }
+    });
+  }
+});
+</script>
+
+
+<main class="container mt-4">
+    
+    <style>
+  #img-overlay {
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+  }
+
+  #img-overlay img {
+    max-width: 70vw;
+    max-height: 70vh;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+
+  #img-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+  }
+</style>
+
+<div class="row">
+  <!-- linke Spalte -->
+  <div class="col-12 col-lg-4 mb-4 border-end pe-lg-4">
+    <div class="img-popup-container">
+      <img id="popup-img" src="/assets/ALGO2.jpg" width="100%" alt="AofA Conference Banner" style="cursor: pointer;"/>
+    </div>
+
+    <h4 class="mt-4">News</h4>
+    <ul>
+      <li>More updates coming soon!</li>
+    </ul>
+
+    <h4 class="mt-4">Important Dates</h4>
+    <ul>
+      <li><i>Submission deadline:</i> end of February 2026</li>
+      <li><i>Acceptance notice:</i> mid of April 2026</li>
+      <li><i>Registration deadline (early bird):</i> TBD </li>
+      <li><i>Registration deadline:</i> TBD </li>
+    </ul>
+  </div>
+  
+  <!-- rechte Spalte -->
+  <div class="col-12 col-lg-8 ps-lg-4">
+    <h2>37th International Conference / Meeting on Probabilistic, Combinatorial and Asymptotic Methods for the Analysis of Algorithms</h2>
+    <p>
+      The event will take place from June 22–26, 2026, and it is hosted at the <a href="https://www.en.math.lmu.de/index.html">Institute of Mathematics</a> at <a href="https://www.lmu.de/en/">LMU Munich</a>.
+      The conference is part of the series of annual meetings and conferences of
+      <a href="https://www.math.aau.at/AofA">the AofA community</a>.
+    </p>
+
+    <!--
+    <h4>Registration</h4>
+    <p>
+      This paragraph can be used to provide some instructions for registration for the
+      conference, or a note that registration might also not be open yet.
+    </p>
+    <div class="text-center mb-4">
+      <a href="#" class="btn btn-outline-primary">Registration</a>
+    </div>
+    -->
+
+    <h4>Flajolet Lecture</h4>
+    <p>
+      The <em>Flajolet Lecture</em> is given by the recipient of the
+      <a href="https://en.wikipedia.org/wiki/Flajolet_Lecture_Prize#Recipients">Philippe Flajolet Lecture Prize 2025</a>,
+      <em>mathematician and computer scientist extraordinaire,</em>
+    </p>
+    <p>
+      <strong><a href="https://www.stat.sinica.edu.tw/eng/index.php?act=researcher_manager&code=view&member=14">Hsien-Kuei Hwang</a></strong> (Institute of Statistical Science, Academia Sinica, Taipei, Taiwan)
+    </p>
+    <p>
+      The Flajolet Lecture Prize is awarded for outstanding contributions to analytic 
+      combinatorics and analysis of algorithms, 
+      in memory of <a href="https://en.wikipedia.org/wiki/Philippe_Flajolet">Philippe Flajolet</a>.
+    </p>
+
+    <h4>Plenary Speakers</h4>
+    <ul>
+      <li><a href="https://oplermic.pages.fit/">Michal Opler</a>, Czech Technical University in Prague</li>
+      <li><a href="https://willperkins.org/">Will Perkins</a>, Georgia Tech</li>
+      <li><a href="https://igm.univ-mlv.fr/~fusy/">Eric Fusy</a>, Laboratoire d'Informatique Gaspard Monge</li>
+      <li>... more to come ...</li>
+    </ul>
+  </div>
+</div>
+
+<div id="img-overlay">
+  <span id="img-close">&times;</span>
+  <img id="img-enlarged" src="/assets/ALGO2.jpg" alt="AofA Conference Banner"/>
+</div>
+
+<script>
+  const popupImg = document.getElementById("popup-img");
+  const overlay = document.getElementById("img-overlay");
+  const closeBtn = document.getElementById("img-close");
+
+  popupImg.addEventListener("click", () => {
+    overlay.style.display = "flex";
+  });
+
+  overlay.addEventListener("click", (e) => {
+    if (e.target === overlay || e.target === closeBtn) {
+      overlay.style.display = "none";
+    }
+  });
+</script>
+
+</main>
+
+<!-- <footer class="footer d-flex mt-2">
+    <div class="legal-container my-3 ms-3">
+      <a href="/legal">Legal information</a>
+    </div>
+    <div class="ms-auto my-3 me-3">
+        <a href="https://www.en.math.lmu.de/index.html">
+            <img src="/assets/lmu-math.png" height=50 style="filter: invert(1);">
+        </a>
+    </div>
+    <div class="my-3 me-3">
+        <a href="https://www.lmu.de/en/">
+            <img src="/assets/lmu.png" height=50 style="filter: invert(1);">
+        </a>
+    </div>
+</footer> -->
+
+<footer class="footer d-flex mt-2 align-items-center">
+  <style>
+    .footer {
+      padding: 0.5rem 1rem;       /* kompakte Höhe */
+      flex-wrap: wrap;            /* damit Inhalte umbrechen */
+    }
+    .footer-logo {
+      max-height: 40px;           
+      height: auto;
+      width: auto;
+    }
+    .footer a {
+      display: flex;
+      align-items: center;        
+      text-decoration: none;
+      color: inherit;
+    }
+    .legal-container {
+      font-size: 1rem;
+      transition: font-size 0.2s ease;
+    }
+
+    /* Kleine Screens */
+    @media (max-width: 576px) {
+      .footer-logo {
+        max-height: 30px;
+      }
+      .legal-container {
+        font-size: 0.9rem;
+      }
+    }
+
+    /* Sehr kleine Screens */
+    @media (max-width: 400px) {
+      .footer-logo {
+        display: none;
+      }
+      .legal-container {
+        font-size: 0.8rem;
+        margin-right: 0;  /* keine Lücke mehr */
+      }
+    }
+  </style>
+
+  <div class="legal-container me-auto">
+    <a href="/legal">Legal information</a>
+  </div>
+
+  <div class="me-3">
+    <a href="https://www.en.math.lmu.de/index.html">
+      <img src="/assets/lmu-math.png" class="footer-logo" style="filter: invert(1);">
+    </a>
+  </div>
+
+  <div>
+    <a href="https://www.lmu.de/en/">
+      <img src="/assets/lmu.png" class="footer-logo" style="filter: invert(1);">
+    </a>
+  </div>
+</footer>
+
+
+
+
+
+    <!-- <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$']], displayMath: [ ["\\[","\\]"] ],}
+});
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+  </body>
+</html>
