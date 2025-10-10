@@ -1,2 +1,0 @@
-# docker build -t mein-jekyll .
-docker run --rm -p 4000:4000 mein-jekyll
