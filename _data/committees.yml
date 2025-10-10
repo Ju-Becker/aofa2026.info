@@ -1,0 +1,26 @@
+# Structured data set representing members of committees related
+# to the conference.
+
+organising:  # members of the organizing committee
+  - name: Konstantinos Panagiotou
+    web: "https://www.mathematik.uni-muenchen.de/~kpanagio/"
+  - name: Tamas Makai
+    web: "https://www.mathematik.uni-muenchen.de/~makai/"
+  - name: Julian Becker
+    web: "https://www.mathematik.uni-muenchen.de/~becker/"
+  - name: Julius Hallmann
+    web: "https://www.mathematik.uni-muenchen.de/~hallmann/"
+
+programme:  # members of the programme committee
+  - name: Konstantinos Panagiotou
+    affiliation: Institute for Mathematics, University of Munich
+    chair: True
+  - name: Noela Müller
+    affiliation: TU/e Eindhoven University of Technology
+  - name: Juanjo Rue
+    affiliation: Barcelona
+  - name: Dimbinaina Ralaivaosaona
+    affiliation: SU Stellenbosch
+  - name: ... more to come ...
+    affiliation: 
+

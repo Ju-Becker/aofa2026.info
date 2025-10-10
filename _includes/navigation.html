@@ -1,0 +1,63 @@
+
+
+<header>
+  <!-- obere Leiste mit Brand + Toggler (Layout gleich wie bei dir) -->
+  <nav id="nav-title" class="navbar navbar-expand-md navbar-dark">
+    <a class="navbar-brand brand-title" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/ALGO2.jpg' | relative_url }}" height="30" class="mx-2" alt="Logo">
+      {{ site.title }}
+    </a>
+
+    <!-- Toggler: data-bs-target zeigt auf die ID weiter unten -->
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapseMain"
+            aria-controls="navbarCollapseMain"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+  <!-- zweite Leiste (deine Navigation) - bleibt optisch gleich -->
+  <nav id="nav-main" class="navbar navbar-expand-md navbar-dark">
+    <div class="collapse navbar-collapse" id="navbarCollapseMain">
+      <ul class="navbar-nav me-auto">
+        {% for item in site.data.navigation %}
+        <li class="nav-item {% if (page.url == item.url) or (page.url contains item.url and item.url != "/") %}active{% endif %}">
+          <a class="nav-link" href="{{ item.url | relative_url }}" alt="{{ item.title }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Fallback-Script: wird nur aktiv, falls Bootstrap JS nicht geladen ist -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  console.log("here");
+  var toggler = document.querySelector('.navbar-toggler');
+  var collapseEl = document.getElementById('navbarCollapseMain');
+
+  // Wenn Bootstrap 5 vorhanden ist, nichts weiter tun (Bootstrap handhabt Collapse).
+  if (typeof bootstrap !== 'undefined' && bootstrap.Collapse) {
+    return;
+  }
+
+  // Fallback: Toggle-Klasse "show" manuell, plus aria-expanded anpassen.
+  if (toggler && collapseEl) {
+    toggler.addEventListener('click', function (e) {
+      e.preventDefault();
+      var isShown = collapseEl.classList.contains('show');
+      if (isShown) {
+        collapseEl.classList.remove('show');
+        toggler.setAttribute('aria-expanded', 'false');
+      } else {
+        collapseEl.classList.add('show');
+        toggler.setAttribute('aria-expanded', 'true');
+      }
+    });
+  }
+});
+</script>

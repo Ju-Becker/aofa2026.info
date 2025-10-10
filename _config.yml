@@ -1,0 +1,59 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: 'AofA2026 @ LMU Munich, Germany'
+longtitle: '37th International Conference / Meeting on Probabilistic, Combinatorial and Asymptotic Methods for the Analysis of Algorithms'
+shorttitle: 'AofA2026'
+aofa_location: LMU Munich, Germany
+email: organizer@host_institution.org
+description: >- # this means to ignore newlines until "baseurl:"
+  Online presence of AofA2026, the 37nd International Conference / Meeting on Probabilistic,
+  Combinatorial and Asymptotic Method for the Analysis of Algorithms, held from 22.06.2026 to 26.06.2026
+  in Munich, Germany.
+#baseurl: "/AofA2026" # the subpath of your site, e.g. /blog
+url: "https://aofa2026.info" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+kramdown:
+    parse_block_html: true
+
+permalink: /news/:year/:month/:title.html
+
+keep_files:
+    - node_modules
+
+sass:
+  load_paths:
+      - _sass
+      - node_modules
+      - /usr/local/node_modules
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .gitignore
+  - .git/
+  - Makefile
+  - package.json
+  - yarn.lock
+  - jekyll_common

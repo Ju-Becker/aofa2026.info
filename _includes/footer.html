@@ -1,0 +1,79 @@
+<!-- <footer class="footer d-flex mt-2">
+    <div class="legal-container my-3 ms-3">
+      <a href="{{ '/legal' | relative_url }}">Legal information</a>
+    </div>
+    <div class="ms-auto my-3 me-3">
+        <a href="https://www.en.math.lmu.de/index.html">
+            <img src="{{ "/assets/lmu-math.png" | relative_url }}" height=50 style="filter: invert(1);">
+        </a>
+    </div>
+    <div class="my-3 me-3">
+        <a href="https://www.lmu.de/en/">
+            <img src="{{ "/assets/lmu.png" | relative_url }}" height=50 style="filter: invert(1);">
+        </a>
+    </div>
+</footer> -->
+
+<footer class="footer d-flex mt-2 align-items-center">
+  <style>
+    .footer {
+      padding: 0.5rem 1rem;       /* kompakte Höhe */
+      flex-wrap: wrap;            /* damit Inhalte umbrechen */
+    }
+    .footer-logo {
+      max-height: 40px;           
+      height: auto;
+      width: auto;
+    }
+    .footer a {
+      display: flex;
+      align-items: center;        
+      text-decoration: none;
+      color: inherit;
+    }
+    .legal-container {
+      font-size: 1rem;
+      transition: font-size 0.2s ease;
+    }
+
+    /* Kleine Screens */
+    @media (max-width: 576px) {
+      .footer-logo {
+        max-height: 30px;
+      }
+      .legal-container {
+        font-size: 0.9rem;
+      }
+    }
+
+    /* Sehr kleine Screens */
+    @media (max-width: 400px) {
+      .footer-logo {
+        display: none;
+      }
+      .legal-container {
+        font-size: 0.8rem;
+        margin-right: 0;  /* keine Lücke mehr */
+      }
+    }
+  </style>
+
+  <div class="legal-container me-auto">
+    <a href="{{ '/legal' | relative_url }}">Legal information</a>
+  </div>
+
+  <div class="me-3">
+    <a href="https://www.en.math.lmu.de/index.html">
+      <img src="{{ "/assets/lmu-math.png" | relative_url }}" class="footer-logo" style="filter: invert(1);">
+    </a>
+  </div>
+
+  <div>
+    <a href="https://www.lmu.de/en/">
+      <img src="{{ "/assets/lmu.png" | relative_url }}" class="footer-logo" style="filter: invert(1);">
+    </a>
+  </div>
+</footer>
+
+
+
