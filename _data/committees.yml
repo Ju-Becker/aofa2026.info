@@ -15,7 +15,11 @@ programme:  # members of the programme committee
   - name: Konstantinos Panagiotou
     affiliation: Institute for Mathematics, University of Munich
     chair: True
+  - name: Noela Müller
+    affiliation: TU/e Eindhoven University of Technology
   - name: Juanjo Rue
-    affiliation: UPC
+    affiliation: Barcelona
+  - name: Dimbinaina Ralaivaosaona
+    affiliation: SU Stellenbosch
   - name: ... more to come ...
     affiliation: 
