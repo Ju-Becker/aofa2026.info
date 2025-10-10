@@ -13,7 +13,7 @@ organising:  # members of the organizing committee
 
 programme:  # members of the programme committee
   - name: Konstantinos Panagiotou
-    affiliation: Institute for Mathematics, University of Munich
+    affiliation: Institute for Mathematics, LMU Munich
     chair: True
   - name: Noela Müller
     affiliation: TU/e Eindhoven University of Technology
