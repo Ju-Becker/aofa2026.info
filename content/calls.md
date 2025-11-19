@@ -13,16 +13,24 @@ permalink: /calls/
 
 * Registration deadline: TBA
 
-Submission server: TBD
+
+
+#### Submissions
+
+We invite you to submit an extended abstract of up to 12-15 pages, excluding the
+the front page, bibliography, and a brief appendix of up to 5 pages.
+Further appendices can be included in addition to that, and they will be read at the [Program Committee's](https://aofa2026.info/committees/) discretion, but will not be included in the proceedings.
+
+For the submission and the final version of the papers you are required to use the
+Leibniz International Proceedings in Informatics (LIPIcs). For the LaTex templates and
+further information please consult the [LIPIcs](https://submission.dagstuhl.de/series/details/LIPIcs#author) page.
+
+<strong>Submission server:</strong>  easychair, it will open in early 2026.
 
 #### Scope
 
-Analysis of algorithms is a scientific basis for computation,
-providing a link between abstract algorithms and the performance characteristics of their implementations in the real
-world. The general effort to precisely predict the performance
-of algorithms has come to involve research in analytic combinatorics, the analysis of random discrete structures, asymptotic analysis, exact and limiting distributions, and other fields of inquiry in computer science, probability theory, and enumerative
-combinatorics. See [www.math.aau.at/AofA/](https://www.math.aau.at/AofA/).
-
+Analysis of Algorithms (AofA) is a field at the boundary of computer science and mathematics. The goal is to obtain a precise understanding of the asymptotic, average-case characteristics of algorithms and data structures. A unifying theme is the use of probabilistic, combinatorial, and analytic methods. The objects to be studied include random branching processes, graphs, permutations, trees, and strings.
+See also [here](https://www.math.aau.at/AofA/) for more information on the community and prior events.
 We invite papers in
 * analytic algorithmics and combinatorics,
 * probabilistic analysis of algorithms and
@@ -34,7 +42,3 @@ graph algorithms, caching and memory hierarchies, indexing,
 data mining, data compression, coding and information theory, and computational finance. Papers are also welcome that
 address bridges to research in related fields such as statistical physics, computational biology, computational geometry, and simulation.
 
-#### Submissions
-
-We invite you to submit an extended abstract of up to 12 pages, excluding references. Appendices can be included in addition to that. They will be read at the Program Committee's
-discretion, but will not be included in the conference proceedings.
