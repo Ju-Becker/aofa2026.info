@@ -5,9 +5,10 @@ services:
     build: .
     ports:
       - "4000:4000"
-      - "35729:35729"  # Livereload Port
+      - "35729:35729"
+    command: jekyll serve --host 0.0.0.0 --livereload --force_polling
     volumes:
       - .:/srv/jekyll
-      - /srv/jekyll/node_modules  # verhindert Überschreiben durch Host
+      - /srv/jekyll/node_modules
     environment:
-      - JEKYLL_ENV=development
+      JEKYLL_ENV: development
