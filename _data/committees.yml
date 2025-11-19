@@ -15,14 +15,29 @@ programme:  # members of the programme committee
   - name: Konstantinos Panagiotou
     affiliation: Institute for Mathematics, LMU Munich
     chair: True
+  - name: Frédérique Bassino
+    affiliation: Université Sorbonne Paris Nord
+  - name: Michael Drmota
+    affiliation: TU Vienna
+  - name: Valentin Féray
+    affiliation: Université de Lorraine
   - name: Noela Müller
-    affiliation: TU/e Eindhoven University of Technology
-  - name: Juanjo Rue
-    affiliation: Barcelona
+    affiliation: TU/e Eindhoven
+  - name: Markus Nebel
+    affiliation: Bielefeld University 
+  - name: Robin Pemantle
+    affiliation: University of Pennsylvania
   - name: Dimbinaina Ralaivaosaona
     affiliation: SU Stellenbosch
+  - name: Juanjo Rué
+    affiliation: UPC Barcelona
+  - name: Gilles Schaeffer
+    affiliation: École Polytechnique
+  - name: Fiona Skerman
+    affiliation: Uppsala University
   - name: Stephan Wagner
     affiliation: TU Graz
-  - name: ... more to come ...
-    affiliation: 
+  - name: Minmin Wang
+    affiliation: University of Sussex
+
 
