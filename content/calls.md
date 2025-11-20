@@ -10,6 +10,7 @@ permalink: /calls/
 * Deadline: March 1, 2026
 * Acceptance notice: April 20, 2026
 * Camera ready: May 4, 2026
+* Conference: June 22-26, 2026
 
 * Registration deadline: TBA
 
@@ -21,11 +22,13 @@ We invite you to submit an extended abstract of up to 12-15 pages, excluding the
 the front page, bibliography, and a brief appendix of up to 5 pages.
 Further appendices can be included in addition to that, and they will be read at the [Program Committee's](https://aofa2026.info/committees/) discretion, but will not be included in the proceedings.
 
+Simultaneous submission to other conferences with published proceedings or to journals is not allowed. PC members are allowed to submit their works as well, except for PC chairs.
+
 For the submission and the final version of the papers you are required to use the
 Leibniz International Proceedings in Informatics (LIPIcs). For the LaTex templates and
 further information please consult the [LIPIcs](https://submission.dagstuhl.de/series/details/LIPIcs#author) page.
 
-<strong>Submission server:</strong>  easychair, it will open in early 2026.
+<strong>Submission server:</strong> easychair, it will open in early 2026.
 
 #### Scope
 
@@ -42,3 +45,6 @@ graph algorithms, caching and memory hierarchies, indexing,
 data mining, data compression, coding and information theory, and computational finance. Papers are also welcome that
 address bridges to research in related fields such as statistical physics, computational biology, computational geometry, and simulation.
 
+#### Conference
+
+At least one author of each accepted paper is expected to register at the conference.
