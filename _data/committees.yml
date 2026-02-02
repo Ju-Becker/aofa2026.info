@@ -17,6 +17,8 @@ programme:  # members of the programme committee
     chair: True
   - name: Frédérique Bassino
     affiliation: Université Sorbonne Paris Nord
+  - name: Alessandra Caraceni
+    affiliation: Scuola Normale Superiore, Pisa
   - name: Michael Drmota
     affiliation: TU Vienna
   - name: Valentin Féray
@@ -39,5 +41,3 @@ programme:  # members of the programme committee
     affiliation: TU Graz
   - name: Minmin Wang
     affiliation: University of Sussex
-
-
