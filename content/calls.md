@@ -12,7 +12,7 @@ permalink: /calls/
 * Camera ready: May 4, 2026
 * Conference: June 22-26, 2026
 
-* Registration deadline: TBA
+* Registration deadline: May 17 (early bird), May 31 (regular)
 
 
 
