@@ -28,7 +28,7 @@ For the submission and the final version of the papers you are required to use t
 Leibniz International Proceedings in Informatics (LIPIcs). For the LaTex templates and
 further information please consult the [LIPIcs](https://submission.dagstuhl.de/series/details/LIPIcs#author) page.
 
-<strong>Submission server:</strong> easychair, it will open in early 2026.
+<strong>Submission server:</strong> click [here](https://easychair.org/conferences/?conf=aofa2026) to get to easychair, where you can submit your paper.
 
 #### Scope
 
