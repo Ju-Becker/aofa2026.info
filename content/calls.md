@@ -7,7 +7,7 @@ permalink: /calls/
 
 #### Important Dates
 
-* Deadline: March 1, 2026
+* Deadline: March 8, 2026
 * Acceptance notice: April 20, 2026
 * Camera ready: May 4, 2026
 * Conference: June 22-26, 2026
