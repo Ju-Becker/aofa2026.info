@@ -10,5 +10,4 @@ permalink: /registration/
 * Registration deadline: May 31, 2026
 
 ### Details
-
-Further information will be announced in early 2026, when the registration opens.
+The registration will open in March 2026. The registration fee will be 200 Euros.
