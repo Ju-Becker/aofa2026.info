@@ -12,7 +12,7 @@ permalink: /registration/
 ### Details
 
 If you want to participate at the conference you have to register.
-The registration fee includes all lunches on Monday - Thursday, coffee breaks, excursion and the conference dinner.
+The registration fee includes all lunches on Monday - Thursday, coffee breaks and excursion.
 
 In order to register, please follow this
 <a href="https://doo.net/en-us/widget/201121/buchung?booking_widget_config_name=booking-18793-94005&organizerId=18793&locale=en-us">
