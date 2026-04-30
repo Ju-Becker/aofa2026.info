@@ -3,8 +3,8 @@
 - title: Home
   url: /
 
-- title: Call for Papers
-  url: /calls/
+- title: Program
+  url: /program/
 
 - title: Registration
   url: /registration/
@@ -15,5 +15,5 @@
 - title: Local Info
   url: /local/
 
-- title: Program
-  url: /program/
+- title: Call for Papers
+  url: /calls/
