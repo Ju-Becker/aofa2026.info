@@ -4,13 +4,12 @@ title: Program
 permalink: /program/
 ---
  
-The (preliminary) schedule for the conference is below. (On a mobile device, rotate or zoom.) The schedule will be finalized on <b>May 18</b> and is subject to small changes until then.
-Click <a href="../assets/AofA-prog-v2.pdf">here</a> for the full pdf program together with detailed session information and abstracts.
-Note that we will keep updating this document, as soon as information becomes available. 
+The schedule for the conference is below. (On a mobile device, rotate or zoom.)
+Click <a href="../assets/AofA-prog-final.pdf">here</a> for the full pdf program together with detailed session information and abstracts for the invited talks.
 
-<!-- <img id="aofa-prog" src="{{'/assets/AofA-prog.png' | relative_url }}" alt="picture" width="850" height="600"/> -->
+<!-- <img id="aofa-prog" src="{{'/assets/AofA-prog-final.png' | relative_url }}" alt="picture" width="850" height="600"/> -->
 
-<img id="aofa-prog" src="{{'/assets/AofA-prog.png' | relative_url }}" alt="picture" />
+<img id="aofa-prog" src="{{'/assets/AofA-prog-final.png' | relative_url }}" alt="picture" />
 
 <style>
 	#aofa-prog {
