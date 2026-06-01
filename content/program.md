@@ -6,6 +6,7 @@ permalink: /program/
  
 The schedule for the conference is below. (On a mobile device, rotate or zoom.)
 Click <a href="../assets/AofA-prog-final.pdf">here</a> for the full pdf program together with detailed session information and abstracts for the invited talks.
+The proceedings will be published here as soon as they are available.
 
 <!-- <img id="aofa-prog" src="{{'/assets/AofA-prog-final.png' | relative_url }}" alt="picture" width="850" height="600"/> -->
 
