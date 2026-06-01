@@ -9,6 +9,8 @@ permalink: /registration/
 * "Early bird" registration deadline (200 Euros): May 17, 2026
 * Regular registration deadline (300 Euros): May 31, 2026
 
+Registration is <strong>closed</strong>. If you want to participate and have not registered yet, please write an email to Konstantinos Panagiotou.
+
 ### Details
 
 If you want to participate at the conference you have to register.
