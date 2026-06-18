@@ -6,7 +6,8 @@ permalink: /program/
  
 The schedule for the conference is below. (On a mobile device, rotate or zoom.)
 Click <a href="../assets/AofA-prog-final.pdf">here</a> for the full pdf program together with detailed session information and abstracts for the invited talks.
-The (preliminary) proceedings will be published here as soon as they are available.
+
+The <b>preliminary</b> proceedings are located on a <a href="https://submission.dagstuhl.de/collections/05FDlGGmcNA8Bq29W0t9/preliminary-proceedings">Dagstuhl server</a>. You will have to complete a CAPTCHA to access them. Please use with caution.
 
 <!-- <img id="aofa-prog" src="{{'/assets/AofA-prog-final.png' | relative_url }}" alt="picture" width="850" height="600"/> -->
 
