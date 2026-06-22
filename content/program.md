@@ -23,3 +23,8 @@ The <b>preliminary</b> proceedings are located on a <a href="https://submission.
 </style>
 
 Here you can find <a href="../local">local information</a> for your visit.
+
+<h3 id="slides">Slides</h3>
+Talk by <a href="https://perso.ens-lyon.fr/bruno.salvy/talks/AofA2026.pdf">Bruno Salvy</a>
+
+Talk by <a href="../assets/AofA-Eric_Fusy.pdf">Eric Fusy</a>
