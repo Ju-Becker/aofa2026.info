@@ -32,6 +32,7 @@ Here you can find <a href="../local">local information</a> for your visit.
 	  <li>Talk by <a href="../assets/AofA-Will_Perkins.pdf">Will Perkins</a></li>
 	  <li>Talk by <a href="../assets/AofA-Irène_Marcovici.pdf">Irène Marcovici</a></li>
 	  <li>Flajolet Lecture by <a href="../assets/AofA-Hsien-Kuei_Hwang.pdf">Hsien-Kuei Hwang</a></li>
+	  <li>Talk by <a href="../assets/AofA-Michal_Opler.pdf">Michal Opler</a></li>
 </ul>
 
 
